@@ -5147,7 +5147,7 @@ div.single-cta:last-child {
 }
 
 .f-time {
-    width: 50%;
+    width: 65%;
     margin: auto;
     color: #fff;
 }
@@ -5229,12 +5229,12 @@ div.single-cta:last-child {
 
 .f-widget-title h5 {
     font-size: 36px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     position: relative;
 }
 
 .f-widget-title span {
-    color: #f0af2d;
+    color: yellow;
 }
 
 .footer-link ul li i {
@@ -9859,7 +9859,7 @@ p.checkout-coupon input[type="text"] {
 }
 
 .meal-price {
-    margin-top: 50px;
+    margin-top: 37px;
 }
 
 .meal-content p {
@@ -9902,5 +9902,24 @@ p.checkout-coupon input[type="text"] {
     .second-menu .main-menu ul li {
         margin-left: 15px;
         font-size: 15px;
+    }
+}
+
+@media(max-width:540px) {
+    .meal-price {
+        margin-top: 37px;
+    }
+
+    .populer-meal li {
+        padding: 0px;
+    }
+
+    .meal-content p {
+        min-width: 155px;
+    }
+
+    .meal-content h5 a {
+        min-width: 175px;
+        display: block;
     }
 }
